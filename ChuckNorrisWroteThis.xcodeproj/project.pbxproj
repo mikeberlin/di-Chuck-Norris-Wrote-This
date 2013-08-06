@@ -13,9 +13,38 @@
 		57F929E61731F874007003F5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 57F929E41731F874007003F5 /* InfoPlist.strings */; };
 		57F929E81731F874007003F5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 57F929E71731F874007003F5 /* main.m */; };
 		57F929EC1731F874007003F5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 57F929EB1731F874007003F5 /* AppDelegate.m */; };
-		57F929EE1731F874007003F5 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 57F929ED1731F874007003F5 /* Default.png */; };
-		57F929F01731F874007003F5 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 57F929EF1731F874007003F5 /* Default@2x.png */; };
-		57F929F21731F874007003F5 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 57F929F11731F874007003F5 /* Default-568h@2x.png */; };
+		8A51DB11173602B900ACD551 /* ChuckNorrisApproved.png in Resources */ = {isa = PBXBuildFile; fileRef = 8A51DB0D173602B900ACD551 /* ChuckNorrisApproved.png */; };
+		8A51DB12173602B900ACD551 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8A51DB0E173602B900ACD551 /* Default-568h@2x.png */; };
+		8A51DB13173602B900ACD551 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 8A51DB0F173602B900ACD551 /* Default.png */; };
+		8A51DB14173602B900ACD551 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8A51DB10173602B900ACD551 /* Default@2x.png */; };
+		8A51DB29173602D400ACD551 /* AFHTTPClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A51DB17173602D400ACD551 /* AFHTTPClient.m */; };
+		8A51DB2A173602D400ACD551 /* AFHTTPRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A51DB19173602D400ACD551 /* AFHTTPRequestOperation.m */; };
+		8A51DB2B173602D400ACD551 /* AFImageRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A51DB1B173602D400ACD551 /* AFImageRequestOperation.m */; };
+		8A51DB2C173602D400ACD551 /* AFJSONRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A51DB1D173602D400ACD551 /* AFJSONRequestOperation.m */; };
+		8A51DB2D173602D400ACD551 /* AFNetworkActivityIndicatorManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A51DB1F173602D400ACD551 /* AFNetworkActivityIndicatorManager.m */; };
+		8A51DB2E173602D400ACD551 /* AFPropertyListRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A51DB22173602D400ACD551 /* AFPropertyListRequestOperation.m */; };
+		8A51DB2F173602D400ACD551 /* AFURLConnectionOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A51DB24173602D400ACD551 /* AFURLConnectionOperation.m */; };
+		8A51DB30173602D400ACD551 /* AFXMLRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A51DB26173602D400ACD551 /* AFXMLRequestOperation.m */; };
+		8A51DB31173602D400ACD551 /* UIImageView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A51DB28173602D400ACD551 /* UIImageView+AFNetworking.m */; };
+		8A51DB3817360A6B00ACD551 /* Chuck Norris Invasion USA denim.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8A51DB3217360A6B00ACD551 /* Chuck Norris Invasion USA denim.jpg */; };
+		8A51DB3917360A6B00ACD551 /* chuck_norris-.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8A51DB3317360A6B00ACD551 /* chuck_norris-.jpg */; };
+		8A51DB3A17360A6B00ACD551 /* Chuck_Norris.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8A51DB3417360A6B00ACD551 /* Chuck_Norris.jpg */; };
+		8A51DB3B17360A6B00ACD551 /* chuck-norris-pictures-19.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8A51DB3517360A6B00ACD551 /* chuck-norris-pictures-19.jpg */; };
+		8A51DB3C17360A6B00ACD551 /* chucknorris.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 8A51DB3617360A6B00ACD551 /* chucknorris.jpeg */; };
+		8A51DB3D17360A6B00ACD551 /* playing-chess-with-chuck-norris.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8A51DB3717360A6B00ACD551 /* playing-chess-with-chuck-norris.jpg */; };
+		8A51DB4417360A9B00ACD551 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A51DB4217360A9B00ACD551 /* HomeViewController.m */; };
+		8A51DB4517360A9B00ACD551 /* HomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8A51DB4317360A9B00ACD551 /* HomeViewController.xib */; };
+		8A51DB4817360CA300ACD551 /* ImpactLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A51DB4717360CA300ACD551 /* ImpactLabel.m */; };
+		8A51DB4B1736105800ACD551 /* Impact.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8A51DB4A1736105800ACD551 /* Impact.ttf */; };
+		8A522C431736285F001E11D7 /* FactsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8A522C421736285F001E11D7 /* FactsViewController.xib */; };
+		8A522C461737606C001E11D7 /* ChuckNorrisFact.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A522C451737606C001E11D7 /* ChuckNorrisFact.m */; };
+		8A522C5317377059001E11D7 /* FactView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A522C5217377059001E11D7 /* FactView.m */; };
+		8A522C581737740F001E11D7 /* Fact.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8A522C571737740F001E11D7 /* Fact.xib */; };
+		8AC1F3941736148B00A0A093 /* FactsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AC1F3921736148B00A0A093 /* FactsViewController.m */; };
+		8AC1F3DF17361C3A00A0A093 /* .gitattributes in Resources */ = {isa = PBXBuildFile; fileRef = 8AC1F3DA17361C3A00A0A093 /* .gitattributes */; };
+		8AC1F3E017361C3A00A0A093 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 8AC1F3DB17361C3A00A0A093 /* .gitignore */; };
+		8AC1F3E117361C3A00A0A093 /* .travis.yml in Resources */ = {isa = PBXBuildFile; fileRef = 8AC1F3DC17361C3A00A0A093 /* .travis.yml */; };
+		8AC1F3E217361C3A00A0A093 /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AC1F3DE17361C3A00A0A093 /* MBProgressHUD.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,9 +58,54 @@
 		57F929E91731F874007003F5 /* ChuckNorrisWroteThis-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ChuckNorrisWroteThis-Prefix.pch"; sourceTree = "<group>"; };
 		57F929EA1731F874007003F5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		57F929EB1731F874007003F5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		57F929ED1731F874007003F5 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
-		57F929EF1731F874007003F5 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
-		57F929F11731F874007003F5 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		8A51DB0D173602B900ACD551 /* ChuckNorrisApproved.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ChuckNorrisApproved.png; path = Images/ChuckNorrisApproved.png; sourceTree = "<group>"; };
+		8A51DB0E173602B900ACD551 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-568h@2x.png"; path = "Images/Default-568h@2x.png"; sourceTree = "<group>"; };
+		8A51DB0F173602B900ACD551 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Default.png; path = Images/Default.png; sourceTree = "<group>"; };
+		8A51DB10173602B900ACD551 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default@2x.png"; path = "Images/Default@2x.png"; sourceTree = "<group>"; };
+		8A51DB16173602D400ACD551 /* AFHTTPClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPClient.h; sourceTree = "<group>"; };
+		8A51DB17173602D400ACD551 /* AFHTTPClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFHTTPClient.m; sourceTree = "<group>"; };
+		8A51DB18173602D400ACD551 /* AFHTTPRequestOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPRequestOperation.h; sourceTree = "<group>"; };
+		8A51DB19173602D400ACD551 /* AFHTTPRequestOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFHTTPRequestOperation.m; sourceTree = "<group>"; };
+		8A51DB1A173602D400ACD551 /* AFImageRequestOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFImageRequestOperation.h; sourceTree = "<group>"; };
+		8A51DB1B173602D400ACD551 /* AFImageRequestOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFImageRequestOperation.m; sourceTree = "<group>"; };
+		8A51DB1C173602D400ACD551 /* AFJSONRequestOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFJSONRequestOperation.h; sourceTree = "<group>"; };
+		8A51DB1D173602D400ACD551 /* AFJSONRequestOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFJSONRequestOperation.m; sourceTree = "<group>"; };
+		8A51DB1E173602D400ACD551 /* AFNetworkActivityIndicatorManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFNetworkActivityIndicatorManager.h; sourceTree = "<group>"; };
+		8A51DB1F173602D400ACD551 /* AFNetworkActivityIndicatorManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFNetworkActivityIndicatorManager.m; sourceTree = "<group>"; };
+		8A51DB20173602D400ACD551 /* AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFNetworking.h; sourceTree = "<group>"; };
+		8A51DB21173602D400ACD551 /* AFPropertyListRequestOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFPropertyListRequestOperation.h; sourceTree = "<group>"; };
+		8A51DB22173602D400ACD551 /* AFPropertyListRequestOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFPropertyListRequestOperation.m; sourceTree = "<group>"; };
+		8A51DB23173602D400ACD551 /* AFURLConnectionOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLConnectionOperation.h; sourceTree = "<group>"; };
+		8A51DB24173602D400ACD551 /* AFURLConnectionOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLConnectionOperation.m; sourceTree = "<group>"; };
+		8A51DB25173602D400ACD551 /* AFXMLRequestOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFXMLRequestOperation.h; sourceTree = "<group>"; };
+		8A51DB26173602D400ACD551 /* AFXMLRequestOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFXMLRequestOperation.m; sourceTree = "<group>"; };
+		8A51DB27173602D400ACD551 /* UIImageView+AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+AFNetworking.h"; sourceTree = "<group>"; };
+		8A51DB28173602D400ACD551 /* UIImageView+AFNetworking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+AFNetworking.m"; sourceTree = "<group>"; };
+		8A51DB3217360A6B00ACD551 /* Chuck Norris Invasion USA denim.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "Chuck Norris Invasion USA denim.jpg"; path = "Images/Chuck Norris Invasion USA denim.jpg"; sourceTree = "<group>"; };
+		8A51DB3317360A6B00ACD551 /* chuck_norris-.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "chuck_norris-.jpg"; path = "Images/chuck_norris-.jpg"; sourceTree = "<group>"; };
+		8A51DB3417360A6B00ACD551 /* Chuck_Norris.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Chuck_Norris.jpg; path = Images/Chuck_Norris.jpg; sourceTree = "<group>"; };
+		8A51DB3517360A6B00ACD551 /* chuck-norris-pictures-19.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "chuck-norris-pictures-19.jpg"; path = "Images/chuck-norris-pictures-19.jpg"; sourceTree = "<group>"; };
+		8A51DB3617360A6B00ACD551 /* chucknorris.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = chucknorris.jpeg; path = Images/chucknorris.jpeg; sourceTree = "<group>"; };
+		8A51DB3717360A6B00ACD551 /* playing-chess-with-chuck-norris.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "playing-chess-with-chuck-norris.jpg"; path = "Images/playing-chess-with-chuck-norris.jpg"; sourceTree = "<group>"; };
+		8A51DB4117360A9B00ACD551 /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		8A51DB4217360A9B00ACD551 /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
+		8A51DB4317360A9B00ACD551 /* HomeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HomeViewController.xib; sourceTree = "<group>"; };
+		8A51DB4617360CA300ACD551 /* ImpactLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImpactLabel.h; sourceTree = "<group>"; };
+		8A51DB4717360CA300ACD551 /* ImpactLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImpactLabel.m; sourceTree = "<group>"; };
+		8A51DB4A1736105800ACD551 /* Impact.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = Impact.ttf; path = Fonts/Impact.ttf; sourceTree = "<group>"; };
+		8A522C421736285F001E11D7 /* FactsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FactsViewController.xib; sourceTree = "<group>"; };
+		8A522C441737606C001E11D7 /* ChuckNorrisFact.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChuckNorrisFact.h; sourceTree = "<group>"; };
+		8A522C451737606C001E11D7 /* ChuckNorrisFact.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChuckNorrisFact.m; sourceTree = "<group>"; };
+		8A522C5117377059001E11D7 /* FactView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FactView.h; sourceTree = "<group>"; };
+		8A522C5217377059001E11D7 /* FactView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FactView.m; sourceTree = "<group>"; };
+		8A522C571737740F001E11D7 /* Fact.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Fact.xib; sourceTree = "<group>"; };
+		8AC1F3911736148B00A0A093 /* FactsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FactsViewController.h; sourceTree = "<group>"; };
+		8AC1F3921736148B00A0A093 /* FactsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FactsViewController.m; sourceTree = "<group>"; };
+		8AC1F3DA17361C3A00A0A093 /* .gitattributes */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitattributes; sourceTree = "<group>"; };
+		8AC1F3DB17361C3A00A0A093 /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		8AC1F3DC17361C3A00A0A093 /* .travis.yml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .travis.yml; sourceTree = "<group>"; };
+		8AC1F3DD17361C3A00A0A093 /* MBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
+		8AC1F3DE17361C3A00A0A093 /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,9 +152,16 @@
 		57F929E11731F874007003F5 /* ChuckNorrisWroteThis */ = {
 			isa = PBXGroup;
 			children = (
+				8A51DB15173602D400ACD551 /* AFNetworking */,
 				57F929EA1731F874007003F5 /* AppDelegate.h */,
 				57F929EB1731F874007003F5 /* AppDelegate.m */,
+				8A51DB4017360A7E00ACD551 /* Controller */,
+				8A51DB491736104D00ACD551 /* Fonts */,
+				8A51DB0A1736020E00ACD551 /* Images */,
+				8AC1F3D917361C3A00A0A093 /* MBProgressHUD-master */,
+				8A51DB3E17360A7400ACD551 /* Model */,
 				57F929E21731F874007003F5 /* Supporting Files */,
+				8A51DB3F17360A7A00ACD551 /* View */,
 			);
 			path = ChuckNorrisWroteThis;
 			sourceTree = "<group>";
@@ -92,11 +173,105 @@
 				57F929E41731F874007003F5 /* InfoPlist.strings */,
 				57F929E71731F874007003F5 /* main.m */,
 				57F929E91731F874007003F5 /* ChuckNorrisWroteThis-Prefix.pch */,
-				57F929ED1731F874007003F5 /* Default.png */,
-				57F929EF1731F874007003F5 /* Default@2x.png */,
-				57F929F11731F874007003F5 /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8A51DB0A1736020E00ACD551 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				8A51DB3217360A6B00ACD551 /* Chuck Norris Invasion USA denim.jpg */,
+				8A51DB3517360A6B00ACD551 /* chuck-norris-pictures-19.jpg */,
+				8A51DB3317360A6B00ACD551 /* chuck_norris-.jpg */,
+				8A51DB3417360A6B00ACD551 /* Chuck_Norris.jpg */,
+				8A51DB3617360A6B00ACD551 /* chucknorris.jpeg */,
+				8A51DB0D173602B900ACD551 /* ChuckNorrisApproved.png */,
+				8A51DB0E173602B900ACD551 /* Default-568h@2x.png */,
+				8A51DB0F173602B900ACD551 /* Default.png */,
+				8A51DB10173602B900ACD551 /* Default@2x.png */,
+				8A51DB3717360A6B00ACD551 /* playing-chess-with-chuck-norris.jpg */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+		8A51DB15173602D400ACD551 /* AFNetworking */ = {
+			isa = PBXGroup;
+			children = (
+				8A51DB16173602D400ACD551 /* AFHTTPClient.h */,
+				8A51DB17173602D400ACD551 /* AFHTTPClient.m */,
+				8A51DB18173602D400ACD551 /* AFHTTPRequestOperation.h */,
+				8A51DB19173602D400ACD551 /* AFHTTPRequestOperation.m */,
+				8A51DB1A173602D400ACD551 /* AFImageRequestOperation.h */,
+				8A51DB1B173602D400ACD551 /* AFImageRequestOperation.m */,
+				8A51DB1C173602D400ACD551 /* AFJSONRequestOperation.h */,
+				8A51DB1D173602D400ACD551 /* AFJSONRequestOperation.m */,
+				8A51DB1E173602D400ACD551 /* AFNetworkActivityIndicatorManager.h */,
+				8A51DB1F173602D400ACD551 /* AFNetworkActivityIndicatorManager.m */,
+				8A51DB20173602D400ACD551 /* AFNetworking.h */,
+				8A51DB21173602D400ACD551 /* AFPropertyListRequestOperation.h */,
+				8A51DB22173602D400ACD551 /* AFPropertyListRequestOperation.m */,
+				8A51DB23173602D400ACD551 /* AFURLConnectionOperation.h */,
+				8A51DB24173602D400ACD551 /* AFURLConnectionOperation.m */,
+				8A51DB25173602D400ACD551 /* AFXMLRequestOperation.h */,
+				8A51DB26173602D400ACD551 /* AFXMLRequestOperation.m */,
+				8A51DB27173602D400ACD551 /* UIImageView+AFNetworking.h */,
+				8A51DB28173602D400ACD551 /* UIImageView+AFNetworking.m */,
+			);
+			path = AFNetworking;
+			sourceTree = "<group>";
+		};
+		8A51DB3E17360A7400ACD551 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				8A522C5117377059001E11D7 /* FactView.h */,
+				8A522C5217377059001E11D7 /* FactView.m */,
+				8A522C441737606C001E11D7 /* ChuckNorrisFact.h */,
+				8A522C451737606C001E11D7 /* ChuckNorrisFact.m */,
+				8A51DB4617360CA300ACD551 /* ImpactLabel.h */,
+				8A51DB4717360CA300ACD551 /* ImpactLabel.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		8A51DB3F17360A7A00ACD551 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				8A522C571737740F001E11D7 /* Fact.xib */,
+				8A522C421736285F001E11D7 /* FactsViewController.xib */,
+				8A51DB4317360A9B00ACD551 /* HomeViewController.xib */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		8A51DB4017360A7E00ACD551 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				8AC1F3911736148B00A0A093 /* FactsViewController.h */,
+				8AC1F3921736148B00A0A093 /* FactsViewController.m */,
+				8A51DB4117360A9B00ACD551 /* HomeViewController.h */,
+				8A51DB4217360A9B00ACD551 /* HomeViewController.m */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		8A51DB491736104D00ACD551 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				8A51DB4A1736105800ACD551 /* Impact.ttf */,
+			);
+			name = Fonts;
+			sourceTree = "<group>";
+		};
+		8AC1F3D917361C3A00A0A093 /* MBProgressHUD-master */ = {
+			isa = PBXGroup;
+			children = (
+				8AC1F3DA17361C3A00A0A093 /* .gitattributes */,
+				8AC1F3DB17361C3A00A0A093 /* .gitignore */,
+				8AC1F3DC17361C3A00A0A093 /* .travis.yml */,
+				8AC1F3DD17361C3A00A0A093 /* MBProgressHUD.h */,
+				8AC1F3DE17361C3A00A0A093 /* MBProgressHUD.m */,
+			);
+			path = "MBProgressHUD-master";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -151,9 +326,23 @@
 			buildActionMask = 2147483647;
 			files = (
 				57F929E61731F874007003F5 /* InfoPlist.strings in Resources */,
-				57F929EE1731F874007003F5 /* Default.png in Resources */,
-				57F929F01731F874007003F5 /* Default@2x.png in Resources */,
-				57F929F21731F874007003F5 /* Default-568h@2x.png in Resources */,
+				8A51DB11173602B900ACD551 /* ChuckNorrisApproved.png in Resources */,
+				8A51DB12173602B900ACD551 /* Default-568h@2x.png in Resources */,
+				8A51DB13173602B900ACD551 /* Default.png in Resources */,
+				8A51DB14173602B900ACD551 /* Default@2x.png in Resources */,
+				8A51DB3817360A6B00ACD551 /* Chuck Norris Invasion USA denim.jpg in Resources */,
+				8A51DB3917360A6B00ACD551 /* chuck_norris-.jpg in Resources */,
+				8A51DB3A17360A6B00ACD551 /* Chuck_Norris.jpg in Resources */,
+				8A51DB3B17360A6B00ACD551 /* chuck-norris-pictures-19.jpg in Resources */,
+				8A51DB3C17360A6B00ACD551 /* chucknorris.jpeg in Resources */,
+				8A51DB3D17360A6B00ACD551 /* playing-chess-with-chuck-norris.jpg in Resources */,
+				8A51DB4517360A9B00ACD551 /* HomeViewController.xib in Resources */,
+				8A51DB4B1736105800ACD551 /* Impact.ttf in Resources */,
+				8AC1F3DF17361C3A00A0A093 /* .gitattributes in Resources */,
+				8AC1F3E017361C3A00A0A093 /* .gitignore in Resources */,
+				8AC1F3E117361C3A00A0A093 /* .travis.yml in Resources */,
+				8A522C431736285F001E11D7 /* FactsViewController.xib in Resources */,
+				8A522C581737740F001E11D7 /* Fact.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -166,6 +355,21 @@
 			files = (
 				57F929E81731F874007003F5 /* main.m in Sources */,
 				57F929EC1731F874007003F5 /* AppDelegate.m in Sources */,
+				8A51DB29173602D400ACD551 /* AFHTTPClient.m in Sources */,
+				8A51DB2A173602D400ACD551 /* AFHTTPRequestOperation.m in Sources */,
+				8A51DB2B173602D400ACD551 /* AFImageRequestOperation.m in Sources */,
+				8A51DB2C173602D400ACD551 /* AFJSONRequestOperation.m in Sources */,
+				8A51DB2D173602D400ACD551 /* AFNetworkActivityIndicatorManager.m in Sources */,
+				8A51DB2E173602D400ACD551 /* AFPropertyListRequestOperation.m in Sources */,
+				8A51DB2F173602D400ACD551 /* AFURLConnectionOperation.m in Sources */,
+				8A51DB30173602D400ACD551 /* AFXMLRequestOperation.m in Sources */,
+				8A51DB31173602D400ACD551 /* UIImageView+AFNetworking.m in Sources */,
+				8A51DB4417360A9B00ACD551 /* HomeViewController.m in Sources */,
+				8A51DB4817360CA300ACD551 /* ImpactLabel.m in Sources */,
+				8AC1F3941736148B00A0A093 /* FactsViewController.m in Sources */,
+				8AC1F3E217361C3A00A0A093 /* MBProgressHUD.m in Sources */,
+				8A522C461737606C001E11D7 /* ChuckNorrisFact.m in Sources */,
+				8A522C5317377059001E11D7 /* FactView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,6 +484,7 @@
 				57F929F71731F874007003F5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
