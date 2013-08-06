@@ -142,7 +142,7 @@
 
     NSLog(@"frame.origin.x: %0.0f", frame.origin.x);
 
-    UINib *factNib = [UINib nibWithNibName:@"FactView" bundle:[NSBundle mainBundle]];
+    UINib *factNib = [UINib nibWithNibName:@"Fact" bundle:[NSBundle mainBundle]];
     FactView *factView = [[factNib instantiateWithOwner:nil options:nil] lastObject];
     [factView setProperties:[self getRandomChuckNorrisImage] fact:fact];
     [factView setFrame:frame];
